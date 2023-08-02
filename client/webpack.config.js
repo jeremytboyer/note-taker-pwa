@@ -25,9 +25,11 @@ module.exports = () => {
         template: "./index.html",
       }),
       new MiniCssExtractPlugin(),
-      new WebpackPwaManifest({ // Add WebpackPwaManifest plugin
-        name: "Just Another Text Editor", 
+      new WebpackPwaManifest({
+        // Add WebpackPwaManifest plugin
+        name: "Just Another Text Editor",
         short_name: "JATE",
+        publicPath: "/",
         start_url: "/",
         display: "standalone",
         background_color: "#ffffff",
@@ -40,10 +42,10 @@ module.exports = () => {
           },
         ],
       }),
-      new InjectManifest({ // Add InjectManifest plugin
+      new InjectManifest({
+        // Add InjectManifest plugin
         swSrc: "./src-sw.js", // Path to your service worker file
       }),
-    
     ],
 
     module: {
@@ -56,14 +58,12 @@ module.exports = () => {
           test: /\.(?:js|mjs|cjs)$/,
           exclude: /node_modules/,
           use: {
-            loader: 'babel-loader',
+            loader: "babel-loader",
             options: {
-              presets: [
-                ['@babel/preset-env', { targets: 'ie 9' }]
-              ]
-            }
-          }
-        }
+              presets: [["@babel/preset-env", { targets: "ie 9" }]],
+            },
+          },
+        },
       ],
     },
   };

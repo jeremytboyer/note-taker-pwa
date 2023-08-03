@@ -29,6 +29,7 @@ module.exports = () => {
         // Add WebpackPwaManifest plugin
         name: "Just Another Text Editor",
         short_name: "JATE",
+        inject: true,
         publicPath: "/",
         start_url: "/",
         display: "standalone",

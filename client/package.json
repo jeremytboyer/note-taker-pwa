@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "babel": "^6.23.0",
-    "babel-loader": "^8.2.2",
+    "babel-loader": "^8.3.0",
     "code-mirror-themes": "^1.0.0",
     "html-webpack-plugin": "^5.3.2",
     "idb": "^6.1.2",

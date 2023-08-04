@@ -9,7 +9,7 @@
     "start": "cd ./server && npm start",
     "server": "",
     "build": "cd ./client && npm run build",
-    "install": "",
+    "install": "concurrently \"cd client && npm install\" \"cd server && npm install\"",
     "client": ""
   },
   "keywords": [],

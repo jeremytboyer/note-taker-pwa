@@ -23,7 +23,7 @@ To install the app from the live URL:
 2. Click the install button and follow your browser prompts.
 
 ## Usage 
-Visit the live application URL and start typing notes.
+Visit the live application URL and start typing notes. They are stored to localStorage so they will be there when you get back!
 
 [Click Here to Visit the Live Application](https://fierce-ravine-25733-fb3788a86339.herokuapp.com/)
 

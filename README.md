@@ -16,8 +16,8 @@
 A note taking app that can function offline
 
 ## Installation 
-
-after visiting the live url of the app, simply click the install button and follow your browser prompts.
+- To run a local version, clone the repo and run npm -i from the project directory in your terminal. 
+- To install the app after visiting the live url of the app, simply click the install button and follow your browser prompts.
 
 ## Usage 
 

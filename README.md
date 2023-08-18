@@ -19,7 +19,7 @@ To run the app locally:
 4. Open your web browser and navigate to http://localhost:3000 to see the text editor in action.
 
 To install the app from the live URL:
-1. Visit the live URL of the app.
+1. Visit the [live URL](https://fierce-ravine-25733-fb3788a86339.herokuapp.com/) of the app.
 2. Click the install button and follow your browser prompts.
 
 ## Usage 
